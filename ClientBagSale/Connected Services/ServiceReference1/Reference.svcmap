@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b2cc1860-ef7b-4c3d-a601-32c07823c456" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://bagsale2a.com:8012/BagSale.Service1.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BagSale.xsd" MetadataType="Schema" ID="1149c34d-7a08-4278-ac9b-e62757012275" SourceId="1" SourceUrl="http://bagsale2a.com:8012/BagSale.Service1.svc?xsd=xsd0" />
+    <MetadataFile FileName="BagSale1.xsd" MetadataType="Schema" ID="bdb308e1-c080-4ee2-86c2-bdd40ef19935" SourceId="1" SourceUrl="http://bagsale2a.com:8012/BagSale.Service1.svc?xsd=xsd1" />
+    <MetadataFile FileName="BagSale2.xsd" MetadataType="Schema" ID="cd158130-3fa5-48bc-9227-8f3a47cc6736" SourceId="1" SourceUrl="http://bagsale2a.com:8012/BagSale.Service1.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="54d61eb7-6e43-4d4d-bf8a-b4aea7d29f58" SourceId="1" SourceUrl="http://bagsale2a.com:8012/BagSale.Service1.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
